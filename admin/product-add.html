@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produktkategorie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TOP</h1>
+    </header>
+
+
+    <section class="admin-content">
+        <div class="admin-content-left">
+            <ul>
+                <li>
+                    <a href="#">Kategorie</a>
+                    <ul>
+                        <li><a href="#">Kategorie hinzufügen</a></li>
+                        <li><a href="#">Kategorieliste</a></li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#">Produkttyp</a>
+                    <ul>
+                        <li><a href="#">Produkttyp hinzufügen</a></li>
+                        <li><a href="#">Produkttypliste</a></li>
+                    </ul>
+                </li>
+                
+                <li>
+                    <a href="#">Produkt</a>
+                    <ul>
+                        <li><a href="#">Produkt hinzufügen</a></li>
+                        <li><a href="#">Produktliste</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="admin-content-right">
+            <div class="admin-content-right-product-add">
+                <h1>Produkt hinzufügen</h1>
+                <form action="" method="post" enctype="multipart/form-data">
+                    <!--  wenn das Formular Dateien enthält, die hochgeladen werden sollen -->
+                    <!-- Ohne dieses enctype, wenn Sie versuchen, eine Datei hochzuladen, 
+                     würden die Dateiinhalte nicht korrekt übermittelt werden. -->
+                    <label for="">Produktname eingeben <span style="color:red;">*</span></label>
+                    <input type="text">
+                    <label for="">Kategorie wählen <span style="color:red;">*</span></label>
+                    
+                    <select name="" id="">
+                        <option value="#">--- Wählen---</option>
+                    </select>
+
+                    <select name="" id="">
+                        <label for="">Produkttyp wählen <span style="color:red;">*</span></label>
+                        <option value="#">--- Wählen---</option>
+                    </select>
+                    
+                    <label for="">Produktpreis <span style="color:red;">*</span></label>
+                    <input type="text">
+
+                    <label for="">Rabattpreis <span style="color:red;">*</span></label>
+                    <input type="text">
+                    
+                    <label for="">Produktbeschreibung <span style="color:red;">*</span></label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+
+                    <label for="">Produktphoto <span style="color:red;">*</span></label>
+                    <input type="file">
+
+                    <label for="">Beschreibungsphoto <span style="color:red;">*</span></label>
+                    <input multiple type="file">
+
+                    <button type="submit">Hinzufügen</button>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
