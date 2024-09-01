@@ -16,9 +16,5 @@ A comprehensive online clothing store project featuring both frontend and backen
 - Responsive shopping cart
 - User authentication
 
-## Live-Demo
-[Hier geht's zur Live-Demo](http://your-live-demo-link.com)
 
-## Dokumentation
-[Projekt-Dokumentation](http://your-documentation-link.com)
 
